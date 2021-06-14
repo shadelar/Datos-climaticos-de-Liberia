@@ -1,6 +1,6 @@
 # Proyecto I: Visualización de datos climáticos
 
-###1. Limpiar Base de Datos
+### 1. Limpiar Base de Datos
 Se buscan celdas vacías (NA), de manera exhaustiva en el archivo ya importado en Rstudio con los comandos:  
 View(inp)   
 Y también de manera manual, viendo todos los datos y se encontraron celdas Vacías, las cuales se eliminaron y posteriormente se subió el archivo en CSV.  
@@ -8,7 +8,7 @@ Y también de manera manual, viendo todos los datos y se encontraron celdas Vac�
 
 ![](1.jpg)
 
-####Figura 1 y 2. Datos con celdas Vacías  (NA)
+#### Figura 1 y 2. Datos con celdas Vacías  (NA)
 Y se eliminaron 25 datos nulos o vacios.
 Se nombra el Archivo CSV por inp y se visualiza sus dimensiones y estrutura:
 inp <- read.csv("Liberia_datos climaticos.csv", na.strings="")
@@ -17,10 +17,10 @@ dim(inp)
 str(inp)
 
 
-###2. Grafico 1. Histograma de Datos Climáticos de Liberia con todas sus variables. 
+### 2. Grafico 1. Histograma de Datos Climáticos de Liberia con todas sus variables. 
 
 Se hace un histograma de los datos con las 6 variables un panel cada una, pero igualmente se traslapan:
-# Histograma
+
 ggplot(inp) +
 geom_histogram(
 aes(x = Temperatura..Celsius.), 
@@ -56,10 +56,12 @@ aes(x = Temperatura..Celsius.),
   xlab("Lluvi(mm) Velocidad Viento(m/s) EvapoTranspiracion(mm) Temperatura (C°)Humedad
 Relativa % Irradiacion(W/m2)  ") +
   ylab("Frecuencia")
-Figura 3. Histograma de datos climáticos de Liberia.
+  
+  
+####Figura 3. Histograma de datos climáticos de Liberia.
 
 
-###3. Se promedian las series de temperatura, humedad relativa, velocidad de viento, irradiación a valores mensuales 
+### 3. Se promedian las series de temperatura, humedad relativa, velocidad de viento, irradiación a valores mensuales 
 
 
 ggplot(promedios) +
@@ -87,7 +89,7 @@ ggplot(promedios) +
   xlab("Promedios Mensuales de Temperatura (C°) Humedad Relativa % Velocidad de viento (m/s) Irradiacion(W/m2") + 
   ylab("Frecuencia")
 
-figura pregunta 3
+####figura pregunta 3
 
 
 
@@ -102,6 +104,6 @@ ggplot(inp, aes(x =Temperatura..Celsius.  )) +
   xlab("Temperatura(C°)") +
   ylab("Humedad %") +
   theme_ipsum()
-Figura pregunta 4 1.2 y3
+#### Figura pregunta 4 1.2 y3
 
 

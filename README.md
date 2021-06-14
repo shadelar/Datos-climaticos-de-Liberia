@@ -115,9 +115,9 @@ ggplot(inp, aes(x =Temperatura..Celsius.  )) +
   
   ![](pregunta 4 1.jpg)   
   
-  ![](pregunta 4 2.jpeg)    
+  ![](42.jpg)    
   
-  ![](pregunta 4 3.jpeg)  
+  ![](43.jpg)  
 #### Figura pregunta 4 1.2 y 3
 
 

@@ -118,6 +118,7 @@ ggplot(inp, aes(x =Temperatura..Celsius.  )) +
   ![](42.jpg)    
   
   ![](43.jpg)  
-#### Figura pregunta 4 1.2 y 3
+
+#### Figura 5, 6 y 7 comparaciones entre sí de las variables.
 
 

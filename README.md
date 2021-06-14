@@ -31,9 +31,9 @@ aes(x = Temperatura..Celsius.),
                  fill = "white") +   
   geom_histogram(   
     aes(x = HumedadRelativa....    ),  
-                 binwidth = 1,  
-                 color = "green",]  
-                 fill = "grey") +  
+                 binwidth = 1,   
+                 color = "green",]    
+                 fill = "grey") +    
   geom_histogram(    
     aes(x = VelocidadViento..m.s.  ),    
     binwidth = 2,  

@@ -61,7 +61,7 @@ Relativa % Irradiacion(W/m2)  ") +
   
   
   
- ![](histograma 1.png)   
+ ![](hit 1 figur2.jpeg)   
 ####Figura 3. Histograma de datos climáticos de Liberia.
 
 
@@ -93,6 +93,7 @@ ggplot(promedios) +
   xlab("Promedios Mensuales de Temperatura (C°) Humedad Relativa % Velocidad de viento (m/s) Irradiacion(W/m2") + 
   ylab("Frecuencia")
 
+![](pregunta 3.jpeg)   
 ####figura pregunta 3
 
 
@@ -108,6 +109,11 @@ ggplot(inp, aes(x =Temperatura..Celsius.  )) +
   xlab("Temperatura(C°)") +
   ylab("Humedad %") +
   theme_ipsum()
+  
+  
+  ![](pregunta 4 1.jpeg)
+  ![](pregunta 4 2.jpeg)
+  ![](pregunta 4 3.jpeg)
 #### Figura pregunta 4 1.2 y3
 
 

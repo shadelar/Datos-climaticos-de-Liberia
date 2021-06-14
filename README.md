@@ -96,7 +96,7 @@ ggplot(promedios) +
 
 ![](3.jpg)  
 
-#### figura 4 pregunta 3
+#### figura 4 Promedios mensuales
 
 
 

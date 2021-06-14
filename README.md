@@ -74,7 +74,7 @@ ggplot(promedios) +
       color = "white",
       fill = "grey") +  
   geom_histogram(
-        aes(x = VelocidadViento..m.s..1),
+        aes(x = VelocidadViento..m.s..1), 
         binwidth = 1,
         color = "white",
         fill = "orange") +

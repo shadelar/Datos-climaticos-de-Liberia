@@ -104,3 +104,4 @@ ggplot(inp, aes(x =Temperatura..Celsius.  )) +
   theme_ipsum()
 Figura pregunta 4 1.2 y3
 
+

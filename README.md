@@ -102,18 +102,20 @@ ggplot(promedios) +
 ### 4.gráficos x-y 
 Se relacionan las variables entre sí:
 
-ggplot(inp, aes(x =Temperatura..Celsius.  )) +
-  geom_point(aes(y = HumedadRelativa....    )
-  ) +
-  ggtitle("Relación entre Temperatura (C°) Y Humedad Relativa %") +
-  xlab("Temperatura(C°)") +
-  ylab("Humedad %") +
-  theme_ipsum()
+ggplot(inp, aes(x =Temperatura..Celsius.  )) +    
+  geom_point(aes(y = HumedadRelativa....    )     
+  ) +    
+  ggtitle("Relación entre Temperatura (C°) Y Humedad Relativa %") +   
+  xlab("Temperatura(C°)") +  
+  ylab("Humedad %") +   
+  theme_ipsum()  
   
   
-  ![](pregunta 4 1.jpg)
-  ![](pregunta 4 2.jpeg)
-  ![](pregunta 4 3.jpeg)
-#### Figura pregunta 4 1.2 y3
+  ![](pregunta 4 1.jpg)   
+  
+  ![](pregunta 4 2.jpeg)    
+  
+  ![](pregunta 4 3.jpeg)  
+#### Figura pregunta 4 1.2 y 3
 
 

@@ -62,7 +62,7 @@ Relativa % Irradiacion(W/m2)  ") +
   
   
  ![](3.jpg)   
-####Figura 3. Histograma de datos climáticos de Liberia.
+#### Figura 3. Histograma de datos climáticos de Liberia.
 
 
 ### 3. Se promedian las series de temperatura, humedad relativa, velocidad de viento, irradiación a valores mensuales 
@@ -111,7 +111,7 @@ ggplot(inp, aes(x =Temperatura..Celsius.  )) +
   theme_ipsum()
   
   
-  ![](pregunta 4 1.jpeg)
+  ![](pregunta 4 1.jpg)
   ![](pregunta 4 2.jpeg)
   ![](pregunta 4 3.jpeg)
 #### Figura pregunta 4 1.2 y3

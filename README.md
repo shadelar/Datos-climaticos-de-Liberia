@@ -13,10 +13,10 @@ Y también de manera manual, viendo todos los datos y se encontraron celdas Vac�
 Y se eliminaron 25 datos nulos o vacios.
 Se nombra el Archivo CSV por inp y se visualiza sus dimensiones y estrutura:
 
-inp <- read.csv("Liberia_datos climaticos.csv", na.strings="")
-head(inp)  
-dim(inp)  
-str(inp)  
+inp <- read.csv("Liberia_datos climaticos.csv", na.strings="")   
+head(inp)    
+dim(inp)     
+str(inp)       
  
 
 ### 2. Grafico 1. Histograma de Datos Climáticos de Liberia con todas sus variables. 

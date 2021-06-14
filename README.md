@@ -69,30 +69,30 @@ Relativa % Irradiacion(W/m2)  ") +
 ### 3. Se promedian las series de temperatura, humedad relativa, velocidad de viento, irradiación a valores mensuales 
 
 
-ggplot(promedios) +
-  geom_histogram(
-    aes(x = Temperatura..Celsius..1), 
-    binwidth = 1,
-    color = "white",
-    fill = "blue") + 
-  geom_histogram(
-      aes(x = HumedadRelativa.....1  ),
-      binwidth = 1,
-      color = "white",
-      fill = "grey") +  
-  geom_histogram(
-        aes(x = VelocidadViento..m.s..1), 
-        binwidth = 1,
-        color = "white",
-        fill = "orange") +
-  geom_histogram(
-    aes(x = Irradiacion..W.m2..1   ),
-    binwidth = 1,
-    color = "white",
-    fill = "yellow") +
-  ggtitle("comparacion de datos climáticos promediados mensulamente") +
-  xlab("Promedios Mensuales de Temperatura (C°) Humedad Relativa % Velocidad de viento (m/s) Irradiacion(W/m2") + 
-  ylab("Frecuencia")
+ggplot(promedios) +  
+  geom_histogram(   
+    aes(x = Temperatura..Celsius..1),   
+    binwidth = 1,   
+    color = "white",   
+    fill = "blue") +    
+  geom_histogram(    
+      aes(x = HumedadRelativa.....1  ),      
+      binwidth = 1,      
+      color = "white",         
+      fill = "grey") +         
+  geom_histogram(         
+        aes(x = VelocidadViento..m.s..1),       
+        binwidth = 1,         
+        color = "white",       
+        fill = "orange") +        
+  geom_histogram(     
+    aes(x = Irradiacion..W.m2..1   ),     
+    binwidth = 1,     
+    color = "white",      
+    fill = "yellow") +      
+  ggtitle("comparacion de datos climáticos promediados mensulamente") +        
+  xlab("Promedios Mensuales de Temperatura (C°) Humedad Relativa % Velocidad de viento (m/s) Irradiacion(W/m2") +         
+  ylab("Frecuencia")         
 
 ![](3.jpg)  
 

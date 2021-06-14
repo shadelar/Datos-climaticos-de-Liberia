@@ -48,7 +48,7 @@ aes(x = Temperatura..Celsius.),
     aes(x = Irradiacion..W.m2.     ),  
     binwidth = 2,   
     color = "yellow",  
-    fill = "red") +   
+    fill = "red") +     
   geom_histogram(  
     aes(x = EvapoTranspiracion..mm.),   
     binwidth = 2,  

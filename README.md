@@ -6,7 +6,7 @@ View(inp)
 Y también de manera manual, viendo todos los datos y se encontraron celdas Vacías, las cuales se eliminaron y posteriormente se subió el archivo en CSV.  
 
 
-![](Captura pregunta 1.PNG)
+![](Captura pregunta 1.2.PNG)
 
 ####Figura 1 y 2. Datos con celdas Vacías  (NA)
 Y se eliminaron 25 datos nulos o vacios.

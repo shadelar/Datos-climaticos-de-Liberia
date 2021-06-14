@@ -5,8 +5,10 @@ Se buscan celdas vacías (NA), de manera exhaustiva en el archivo ya importado e
 View(inp)   
 Y también de manera manual, viendo todos los datos y se encontraron celdas Vacías, las cuales se eliminaron y posteriormente se subió el archivo en CSV.  
 
-Imgen 1 y 2pregunta1
-Figura 1 y 2. Datos con celdas Vacías  (NA)
+
+![](Captura pregunta 1.PNG)
+
+####Figura 1 y 2. Datos con celdas Vacías  (NA)
 Y se eliminaron 25 datos nulos o vacios.
 Se nombra el Archivo CSV por inp y se visualiza sus dimensiones y estrutura:
 inp <- read.csv("Liberia_datos climaticos.csv", na.strings="")

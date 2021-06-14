@@ -61,7 +61,7 @@ Relativa % Irradiacion(W/m2)  ") +
   
   
   
- ![](3 1.jpeg)   
+ ![](31.jpg)   
  
 #### Figura 3. Histograma de datos climáticos de Liberia.
 
@@ -113,7 +113,7 @@ ggplot(inp, aes(x =Temperatura..Celsius.  )) +
   theme_ipsum()  
   
   
-  ![](pregunta 4 1.jpg)   
+  ![](41.jpg)   
   
   ![](42.jpg)    
   

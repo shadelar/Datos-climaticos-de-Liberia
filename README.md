@@ -59,9 +59,7 @@ aes(x = Temperatura..Celsius.),
 Relativa % Irradiacion(W/m2)  ") +  
   ylab("Frecuencia")  
   
-  
-  
- ![](pregunta 2segundo intento.jpg)      
+   ![]( pregunta 2segundo intento.jpg)
  
 #### Figura 3. Histograma de datos climáticos de Liberia.
 

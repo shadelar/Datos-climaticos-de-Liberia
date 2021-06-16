@@ -61,7 +61,7 @@ Relativa % Irradiacion(W/m2)  ") +
   
   
   
- ![](pregunta 2segundo intento.jpg)   
+ ![](pregunta 2segundo intento.jpg)      
  
 #### Figura 3. Histograma de datos climáticos de Liberia.
 

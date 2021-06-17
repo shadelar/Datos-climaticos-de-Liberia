@@ -66,6 +66,7 @@ Relativa % Irradiacion(W/m2)  ") +
 
 ### 3. Se promedian las series de temperatura, humedad relativa, velocidad de viento, irradiación a valores mensuales 
 
+![](Captura.jpg)   
 
 ggplot(promedios) +  
   geom_histogram(   
